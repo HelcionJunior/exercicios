@@ -3,8 +3,8 @@
 $nome = "junior";
 $sobrenome = "silva";
 $endereco = "belacintra";
-$idade = "37";
-$telefone = "953672700";
+$idade = 37;
+$telefone = 953672700;
 
 echo "Meu nome é ";
 echo $nome;
@@ -18,7 +18,7 @@ echo "</br>";
 echo "Minha idade é ";
 echo $idade;
 echo "</br>";
-echo "Meu número de telefone é ";
+echo "Meu número de telefone pessoal é ";
 echo $telefone;
 
 
