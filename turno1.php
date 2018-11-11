@@ -5,6 +5,21 @@
 <input type= "radio" name="turno" value="manhã"/>Manhã<br>
 <input type= "radio" name="turno" value="tarde"/>Tarde<br>
 <input type= "radio" name="turno" value="noite"/>Noite<br><br>
-<input type= "submit" value= "Enviar"/><br>
+
+
+<label>Matérias</label><br>
+<select name="materias[]" id=""size ="3" multiple><br>
+<option value= "M">matemática</option>
+<option value= "P">português</option>
+<option value= "H">história</option>
+<option value= "G">geografia</option>
+<option value= "I">inglês</option>
+<option value= "Q">química</option><br>
+
+</select><br>
+
+<input type= "submit" value= "Enviar"/>
+
+
 
 </form>
